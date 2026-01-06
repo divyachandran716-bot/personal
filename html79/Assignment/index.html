@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>My Bootstrap Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="CSS3/Style.css">
+</head>
+
+<body>
+
+  <!--  NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">MyPortfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--HERO SECTION  -->
+  <section id="home" class="hero-section d-flex align-items-center">
+    <div class="container text-center text-white">
+      <h3 class="display-4" style="text-align: left; font-family: adobe-caslon-w01-smbd,seri;"><i>Hello, It's Me</i>
+      </h3><br>
+      <h1 style="text-align: left; font-family: adobe-caslon-w01-smbd,serif;">Divya Chandran</h1>
+      <br>
+      <p class="lead" style="text-align: left; font-family: adobe-caslon-w01-smbd,seri;"><i>I am currently learning web
+          design and development. <br>I enjoy creating clean and simple websites
+          using HTML, CSS, and basic frontend tools..</i></p>
+      <br><a href="#projects" class="btn btn-primary float-start">View Projects</a>
+    </div>
+  </section>
+
+  <!--ABOUT SECTION -->
+  <section id="about" class="container py-5">
+    <h2 class="about-title" style="color: #55acee;">About</h2>
+    <div class="about-underline"></div>
+
+    <p class="text-muted mb-5">
+      I am currently learning web design and development. I enjoy creating clean and simple websites
+      using HTML, CSS, and basic frontend tools. I am passionatee about improving my skills and building
+      creative projects. </p>
+
+    <div class="row align-items-center">
+
+      <!-- Image -->
+      <div class="col-lg-4 about-img mb-4 mb-lg-0">
+        <div class="image">
+          <img src="image/1666973377355.jpg" alt="Profile Image">
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div class="col-lg-8">
+        <h3 class="fw-bold">UI/UX Designer & Web Developer.</h3>
+        <p class="fst-italic text-muted">
+          My goal is
+          to continue growing as a developer and build a career in the field of web development and UI design. </p>
+
+        <div class="row">
+          <div class="col-md-6">
+            <ul class="list-unstyled info-list">
+              <li><i class="bi bi-chevron-right"></i><strong>Birthday:</strong> 1 May 1995</li>
+              <li><i class="bi bi-chevron-right"></i><strong>Website:</strong> www.example.com</li>
+              <li><i class="bi bi-chevron-right"></i><strong>Phone:</strong> +123 456 7890</li>
+              <li><i class="bi bi-chevron-right"></i><strong>City:</strong> New York, USA</li>
+            </ul>
+          </div>
+
+          <div class="col-md-6">
+            <ul class="list-unstyled info-list">
+              <li><i class="bi bi-chevron-right"></i><strong>Age:</strong> 30</li>
+              <li><i class="bi bi-chevron-right"></i><strong>Degree:</strong> Master</li>
+              <li><i class="bi bi-chevron-right"></i><strong>Email:</strong> email@example.com</li>
+              <li><i class="bi bi-chevron-right"></i><strong>Freelance:</strong> Available</li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="text-muted mt-3">
+          This
+          portfolio highlights my skills, projects, and dedication to learning.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!--- PROJECTS SECTION -->
+  <section id="projects" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Projects</h2>
+
+
+      <div class="row g-4">
+        <!-- Project 1 -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="image/photography.jpeg" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Portfolio Website.</h5>
+              <p class="card-text">Responsive portfolio using Bootstrap 5.</p>
+              <a href="photographer.html" class="btn btn-outline-primary">View</a>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Project 2 -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="image/Bike buddies.jpeg" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Bike Buddies</h5>
+              <p class="card-text">Bike rental website built with Bootstrap.</p>
+              <a href="bike.html" class="btn btn-outline-primary">View</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="image/trackmate.jpeg" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">TrackMate</h5>
+              <p class="card-text">Fully responsive portfolio design.</p>
+              <a href="trackmate.html" class="btn btn-outline-primary">View</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION  -->
+
+  <section id="contact" class="contact-section">
+    <div class="container py-5">
+      <div class="row align-items-center">
+
+        <!-- LEFT: Contact Form -->
+        <div class="col-md-6 mb-4 mb-md-0">
+          <div class="card shadow p-4">
+            <h4 class="mb-3">Get in Touch</h4>
+
+            <form>
+              <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Your Name">
+              </div>
+
+              <div class="mb-3">
+                <input type="email" class="form-control" placeholder="Your Email">
+              </div>
+
+              <div class="mb-3">
+                <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+              </div>
+
+              <button class="btn btn-primary w-100">Send Message</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- RIGHT: Text Content -->
+        <div class="col-md-6 text-white">
+          <h2 class="fw-bold">Let’s Work Together</h2>
+          <p class="mt-3">
+            Have a project in mind or want to collaborate?
+            Feel free to reach out. I’m always open to discussing
+            new ideas and opportunities.
+          </p>
+
+          <ul class="list-unstyled mt-4">
+            <li><strong>Email:</strong> yourname@email.com</li>
+            <li><strong>Phone:</strong> +91 98765 43210</li>
+            <li><strong>Location:</strong> India</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!--footer section-->
+
+  <footer class="bg-body-tertiary text-center">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #3b5998;" href="#!"
+          role="button"><i class='bx bxl-facebook'></i>
+        </a>
+
+        <!-- Twitter -->
+        <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #55acee;" href="#!"
+          role="button"><i class='bx bxl-twitter'></i></a>
+
+        <!-- Google -->
+        <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #dd4b39;" href="#!"
+          role="button"><i class='bx bxl-google'></i></a>
+
+        <!-- Instagram -->
+        <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #ac2bac;" href="#!"
+          role="button"><i class='bx bxl-instagram'></i></a>
+
+        <!-- Linkedin -->
+        <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #0082ca;" href="#!"
+          role="button"><i class='bx bxl-linkedin'></i></a>
+        <!-- Github -->
+        <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #333333;" href="#!"
+          role="button"><i class='bx bxl-github'></i></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2020 Copyright:
+      <a class="text-body" href="https://mdbootstrap.com/">MyPortfolio.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

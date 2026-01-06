@@ -1,0 +1,21 @@
+.container { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+} 
+ 
+.item { 
+  flex-grow: 1; 
+  flex-basis: 100px; 
+  text-align: center; 
+  padding: 20px; 
+  background-color: lightblue; 
+  margin: 10px; 
+}
+
+.item { 
+  flex-grow: 1; /* Item will grow to take up available space */ 
+  flex-shrink: 0; /* Item will not shrink */ 
+  flex-basis: 100px; /* The initial size of the item is 100px */ 
+}
+

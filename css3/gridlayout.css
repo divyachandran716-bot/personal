@@ -1,0 +1,32 @@
+.container{
+    display: grid;
+    grid-template-rows: 100px 200px;
+    grid-template-columns: 100px 100px 100px;
+    gap: 10px;
+    margin: 10px;
+}
+
+*{
+    box-sizing: border-box;
+
+}
+
+.item:nth-child(even){
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 10px;
+    border: 10px solid white;
+    font-size: 20px;
+}
+
+.item:nth-child(odd){
+    background-color: rgb(153 127 177);
+    color: aliceblue;
+    padding: 10px;
+    border: 10px solid white;
+    font-size: 20px;
+}
+
+.one{
+    grid-column: span 2;
+}

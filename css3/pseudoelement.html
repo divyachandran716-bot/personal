@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Element Example</title>
+    <style>
+        /* Basic styling for the paragraph */
+        p {
+            font-size: 18px;
+        }
+
+        /* Pseudo-element to add content before the paragraph */
+        p::before {
+            content: "\1F449";  
+            color: red;
+            margin-right: 0.5rem; 
+        }
+    </style>
+</head>
+
+<body>
+    <p> This is an example with ::before pseudo-element.</p>
+</body>
+
+</html>

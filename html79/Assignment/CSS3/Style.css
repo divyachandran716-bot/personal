@@ -1,0 +1,89 @@
+body {
+  padding-top: 70px;
+}
+/* Hero Section */
+.hero-section {
+  height: 100vh;
+  background: url("https://b3466443.smushcdn.com/3466443/wp-content/uploads/2024/02/about-second-bg-image@2x.png?lossy=2&strip=1&webp=1") center/cover no-repeat;
+}
+
+/* About Section */
+.about-title {
+      font-weight: 700;
+      font-size: 32px;
+}
+.about-img img {
+      border-radius: 6px;
+      width: 350px;
+       overflow: hidden;
+      margin: auto;
+}
+.info-list li {
+      margin-bottom: 12px;
+}
+.info-list i {
+      color: #0d6efd;
+      margin-right: 8px;
+}
+.about-img img:hover{
+  transform: scale(1.3);
+}   
+
+/* Project */
+.card {
+  transition: all 0.4s ease;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.card img {
+  transition: transform 0.4s ease;
+}
+.card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+.card:hover img {
+  transform: scale(1.08);
+}
+.card:hover .btn {
+  background-color: #0d6efd;
+  color: #fff;
+}
+.projects-underline{
+
+    width: 60px;
+      height: 3px;
+      background-color: #0d6efd;
+      margin-bottom: 20px;
+}
+
+/*contact section */
+.contact-section {
+  background: url("https://img.freepik.com/free-photo/vintage-pink-telephone-composition_23-2148913955.jpg") center/cover no-repeat;
+  position: relative;
+}
+.contact-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+.contact-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .about-img {
+    width: 100px;   /* adjust as needed */
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+}
+.about-img img{
+    width: 90%;
+    max-width: 300px;
+    border-radius: 20px;
+  }
+}
